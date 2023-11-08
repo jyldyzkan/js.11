@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap ;
+    margin: 0 15px;
+}
+body{
+    background: url("https://i.pinimg.com/564x/96/7e/88/967e88125270a5cbe2ce157d093a6407.jpg") no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+    align-items: center;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0 0 ;
+}
+#searchInput , #submit {
+    padding: 5px 15px;
+    background-color: transparent;
+    border-radius: 8px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 15px 0 0 0;
+
+}
+
+#submit:hover{
+    background-color: #0482f0;
+    color: #fff;
+    transition: 0.3s;
+}
+.border{
+    margin: 25px 0 0 0;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1, p{
+    font-size: 25px;
+    font-family: "Impact, fantasy", sans-serif;
+    color: #fff;
+
+}
